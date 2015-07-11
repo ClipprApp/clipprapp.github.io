@@ -1,17 +1,70 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="utf-8">
+		<title>Michael Zhang</title>
+		<meta name="author" content="Michael Zhang">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<title>Clippr</title>
+		<link href="//fonts.googleapis.com/css?family=Lato:400,300,600" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+		<link rel="icon" href="images/512.png" />
+		
+		<script src="js/smooth-scroll.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	</head>
+	
 	<body>
-		<div class="banner">
-			<div class="content">
-				<img src="images/logo.png" class="logo" alt="Day Trip" />
-				<p>Seamless URL shortening.</p>
+		<div class="full hero" id="home-hero">
+			<div class="hero-container">
+				<div class="content">
+					<p>
+						<div id="avatar"></div>
+					</p>
+					<h1 id="home-title" class="header">Clippr</h1>
+					<div class="hidden-xs hidden-sm">
+						<h3 class="home-subtitle header">
+							Seamless URL shortening.
+						</h3>
+					</div>
+					
+					<a class="see_more" data-scroll href="#me">
+						Read more<br />
+						<i class="fa fa-chevron-down"></i>
+					</a>
+				</div>
 			</div>
 		</div>
+		
+		<a id="me"></a>
+		<div class="container">
+			<center><h2>
+				[Placeholder]
+			</h2></center>
+		</div>
+		
+		<div class="container">
+			<h2>[Placeholder]</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et nisl lorem. Suspendisse potenti. Sed rhoncus nisl quis est pharetra, mattis faucibus nunc sodales. Suspendisse sodales magna lacus, in posuere arcu lobortis a. Integer semper elit sed erat congue aliquam. Curabitur cursus nec dui vel molestie. Maecenas a tortor aliquam, eleifend neque vitae, sollicitudin lorem. Pellentesque ut porttitor lorem. Nam tortor ligula, malesuada non dapibus non, gravida tincidunt nisi. Aenean egestas neque quis augue sagittis, id condimentum metus ultricies. Etiam dignissim tincidunt nisi in blandit. Phasellus bibendum mi eget turpis ornare scelerisque.
+			</p>
+		</div>
+		
+		<p>&nbsp;</p>
+		
+		<div id="footer">
+			<div id="overlay">
+				Made with <span style="color:#F00;">&hearts;</span> by Michael Zhang.
+			</div>
+		</div>
+		
+		<script>
+			smoothScroll.init({
+				speed: 1000,
+				easing: 'easeOutCubic',
+				updateURL: false
+			});
+		</script>
 	</body>
 </html>
